@@ -96,7 +96,7 @@ function simple_glossary_page_new() {
     $results = $wpdb->get_results("SELECT * FROM $table_name ORDER BY term_name ASC");
 
     ?>
-    <div class="wrap widefat">
+    <div class="wrap">
       <h2>Glossary:</h2>
       <table class="wp-list-table widefat striped">
         <thead>
